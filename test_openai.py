@@ -1,4 +1,8 @@
 from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
 def get_gpt_response(user_query):
     import os
     from openai import AzureOpenAI
